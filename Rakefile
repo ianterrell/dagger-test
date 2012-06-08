@@ -11,5 +11,5 @@ Motion::Project::App.setup do |app|
   
   Dagger.setup app
   
-  app.files_dependencies 'app/blue_box.rb' => 'vendor/dagger/motion/archetypical_shape.rb'
+  app.files_dependencies 'app/blue_box.rb' => 'vendor/dagger/motion/node/archetypical_shape.rb'
 end

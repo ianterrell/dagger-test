@@ -1,4 +1,4 @@
-class BlueBox < Dagger::ArchetypicalShape
+class BlueBox < Dagger::Node::ArchetypicalShape
   def self.vertices
     [
       { position: [-0.5, -0.5], },
