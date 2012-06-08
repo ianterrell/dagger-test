@@ -10,4 +10,6 @@ Motion::Project::App.setup do |app|
   app.name = 'DaggerTest'
   
   Dagger.setup app
+  
+  app.files_dependencies 'app/blue_box.rb' => 'vendor/dagger/motion/archetypical_shape.rb'
 end
