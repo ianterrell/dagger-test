@@ -1,0 +1,3 @@
+[submodule "vendor/dagger"]
+	path = vendor/dagger
+	url = git@github.com:ianterrell/dagger.git
